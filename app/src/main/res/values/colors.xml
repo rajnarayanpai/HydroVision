@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_blue">#3B82F6</color>
+    <color name="primary_blue_dark">#1E40AF</color>
+    <color name="primary_blue_light">#93C5FD</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">#F8FAFC</color>
+    <color name="surface_white">#FFFFFF</color>
+
+    <!-- Status Colors -->
+    <color name="success_green">#10B981</color>
+    <color name="success_light">#D1FAE5</color>
+    <color name="success_dark">#047857</color>
+
+    <color name="warning_orange">#F59E0B</color>
+    <color name="warning_light">#FEF3C7</color>
+
+    <color name="error_red">#EF4444</color>
+    <color name="error_light">#FEE2E2</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1F2937</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_80">#CCFFFFFF</color>
+    <color name="chat_background">#F5F7FA</color>
+    <color name="chat_toolbar_bg">#2196F3</color>
+    <color name="chat_input_bg">#FFFFFF</color>
+    <color name="chat_text_primary">#202124</color>
+    <color name="chat_send_button_tint">#2196F3</color>
+    <color name="user_message_bg">#DCF8C6</color> <!-- Light green -->
+    <color name="bot_message_bg">#FFFFFF</color> <!-- White -->
+
+
+    <color name="teal_200">#64FFDA</color>
+    <color name="teal_700">#00796B</color>
+    <color name="teal_800">#004D40</color>
+    <color name="history_title_blue">#0288D1</color>
+
+    <color name="black">#121212</color>
+    <color name="primary_dark">#0D1421</color>
+    <color name="accent_teal">#00E676</color>
+    <color name="accent_purple">#7C4DFF</color>
+    <color name="accent_blue">#2196F3</color>
+
+    <!-- Text Colors -->
+
+
+    <!-- Background Colors -->
+    <color name="card_background">#1E2B3E</color>
+    <color name="prediction_card_background">#252F42</color>
+    <color name="info_card_background">#1A2B3D</color>
+
+    <!-- Status Colors -->
+    <color name="status_safe">#4CAF50</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_danger">#F44336</color>
+    <color name="status_unknown">#9E9E9E</color>
+
+    <!-- Prediction Colors -->
+    <color name="prediction_value">#00E676</color>
+
+    <!-- Button Colors -->
+    <color name="button_secondary">#1E2B3E</color>
+
+    <!-- Disclaimer -->
+    <color name="disclaimer_text">#FFB74D</color>
+    <color name="disclaimer_accent">#FFB300</color>
+
+    <!-- Common -->
+
+    <color name="primary_accent">#00FFAB</color> <!-- Bright teal accent for techy vibe -->
+     <!-- Dark gray background for cards -->
+
+</resources>

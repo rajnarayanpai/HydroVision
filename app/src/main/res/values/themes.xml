@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.Hydrovision2" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Your existing customizations (if any) -->
+        <!-- For example, define default colors here -->
+        <!-- <item name="colorPrimary">@color/primary_blue</item> -->
+    </style>
+
+    <!-- Main app theme -->
+    <style name="Theme.Hydrovision2" parent="Base.Theme.Hydrovision2" />
+
+    <!-- Splash screen theme with transparent status bar and background -->
+    <style name="Theme.Hydrovision2.Starting" parent="Theme.Hydrovision2">
+        <item name="android:windowBackground">@drawable/splash_gradient_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

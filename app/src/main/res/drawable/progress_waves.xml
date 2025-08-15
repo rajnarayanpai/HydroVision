@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background of progress bar -->
+    <item android:id="@android:id/background">
+        <shape android:shape="rectangle">
+            <solid android:color="#203344" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <!-- Secondary progress (empty trailing part) -->
+    <item android:id="@android:id/secondaryProgress">
+        <shape android:shape="rectangle">
+            <solid android:color="#335566" />
+            <corners android:radius="12dp" />
+        </shape>
+    </item>
+
+    <!-- Progress with wave pattern -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape android:shape="rectangle">
+                <bitmap
+                    android:src="@drawable/water_wave_pattern"
+                    android:tileMode="repeat"
+                    android:gravity="left|center_vertical" />
+                <corners android:radius="12dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="26dp"
+    app:cardElevation="8dp"
+    android:layout_marginVertical="8dp"
+    android:backgroundTint="#E6FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Parameter Icon -->
+        <ImageView
+            android:id="@+id/param_icon"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@mipmap/ic_launcher"
+            app:tint="#21D4FD" />
+
+        <!-- Parameter Label -->
+        <TextView
+            android:id="@+id/param_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parameter Name"
+            android:textColor="#2152FF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp" />
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/param_progress"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="260dp"
+            android:layout_height="24dp"
+            android:progress="50"
+            android:max="100"
+            android:progressDrawable="@android:color/holo_blue_light"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
